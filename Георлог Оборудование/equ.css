@@ -1,0 +1,237 @@
+body{
+    font-family: 'Rubik';
+    font-style: normal;
+}
+.header{
+    
+
+  margin-right: 5px;
+	margin: 10px;
+	font: 15px Arial;
+	text-decoration: none;
+	
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+margin-left: 5%;
+
+}
+
+a{
+    color:black;
+    padding: 30px;
+    text-decoration: none;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+
+    
+}
+
+
+select{
+    background:#147E45;
+    box-shadow: 0px 4px 20px;
+    border-radius: 4px;
+    color:white;
+    margin-top: 25px;
+    width: 56px;
+    height: 29px;
+    
+}
+a:first-of-type{
+    color:green;
+}
+.title {
+    font-size: 24px;
+    padding-right: 190px;
+    
+}
+b{
+    color:black;
+}
+span{
+    color: green;
+}
+h1{
+    font-size: 35px;
+    color:#0B132A;
+    
+    font-style: normal;
+    
+}
+#g{
+    font-size: 35px;
+    color:#0B132A;
+    font-style: normal;
+    margin-left: 10%;
+}
+.conter{
+    margin-left: 5%;
+     
+}
+.conter td{border: 1px solid #EEEFF2;
+    width: 551px;
+    height: 284px;
+
+}
+.con3{
+    font-family: 'Rubik';
+    font-style: normal;
+    margin-left: 5%;
+    
+    width: 90%;
+    
+    
+}
+.c1{
+    float:right;
+    font-style: normal;
+}
+.c2{
+    float:right;
+    margin-top: 5%;
+    font-style: normal;
+    margin-right: 7%;
+}
+.c3{
+    float:right;
+    font-style: normal;
+}
+img{
+    float: left;
+}
+.card{
+    width: 551px;
+    height: 284px;
+   border: 1px solid black;
+font-family: 'Rubik';
+    font-style: normal;
+    
+}
+
+
+.con4{
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 90%;
+    height: 25%;
+   
+}
+
+.t4{
+    font-family: 'Rubik';
+    font-style: normal;
+/*float: left;*/
+width: 410px;
+
+margin-left: 9%;
+}
+.button5{
+    font-family: 'Rubik';
+    font-style: normal;
+    align-self: center;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background: #147E45;
+    border:none;
+    font-size: 17px;
+    box-shadow: 0px 0px 12px gray;
+    margin-top: -9%;
+    margin-right: 20%;
+    float:right;
+}
+#button1{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    color: #147E45;
+    background: #FFFFFF;
+    font-size: 17px;
+    border: 2px solid  #147E45;
+    
+}
+#button2{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    color: #147E45;
+    background: #FFFFFF;
+    font-size: 17px;
+    border: 2px solid  #147E45;
+    margin-top: 9%;
+}
+#button3{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    color: #147E45;
+    background: #FFFFFF;
+    font-size: 17px;
+    border: 2px solid  #147E45;
+    
+}
+.footer{
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 90%;
+    height: 212px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    
+}
+#footer{
+   
+    text-align: left;
+    float:right;
+    margin-top: -3.5%;
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+.green{
+    color: #147E45;
+}
+td:first-of-type{
+    font-weight: bold;
+    padding-right: 40px;
+}
+#podpisi{
+    margin-top: 13%;
+    color:#AFB5C0;
+    font-size: 16px;
+}
+#chain
+{
+    width: 210px;
+    height: 178px;
+}
+#drill
+{
+    margin-left: 20%;
+    height: 255px;
+    width: 47px;
+}
+#buck
+{
+    
+    
+    width: 189px;
+    height: 284px;
+}
+p{
+    font-style: normal;
+    font-weight: 400;
+}

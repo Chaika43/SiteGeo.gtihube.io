@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div id="slider"><img src=""> </div>
+    <script>
+        alert('Hello world')
+        var images= ['1.jpg', '3.jpg' ,'4.jpg'];
+        var slider = document.querySelector('#slider');
+        var img = slider.querySelector('img');
+        var i =1;
+        img.src = images[0];
+        window.setInterval(function(){
+            img.src = images[i];
+
+            i++;
+            if(i== images.length){
+                i=0;
+            }
+        }, 1000);
+        </script>
+</body>
+</html>
