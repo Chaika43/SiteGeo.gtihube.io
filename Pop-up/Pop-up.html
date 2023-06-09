@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Pop-up.css">
+    <script defer src="Pop-up.js"></script>
+</head>
+<body>
+ <h1>Модальное окно</h1>
+ <div class="modal" id="my-modal">
+    <div class="modal_box">
+        <button class="modal_close-btn" id="close-my-modal-btn">X</button>
+        <h2><span class="tit">Scientific</span>Equipment</h2>
+
+        <form action="">
+            <h5>Ваше имя<span class="star">*</span></h5>
+            <p><input type="text" name="text"
+            placeholder="Как к вам обращаться?"></p>
+            <h5>Номер телефона<span class="star">*</span></h5>
+            <p><input type="tel" name="tel"
+            placeholder="Введите ваш номер телефона"></p>
+            <h5>Комментарий</h5>
+            <p><input type="text" name="com"
+            placeholder="Когда с вами удобнее связаться?">
+
+        </p>
+              <input id="checkbox" type="checkbox" name="check" >
+            <label for="checkbox">Даю своё согласие на обработку персональных данных</label>
+            <input class="button" type="button" name="but" value="Оставить заявку">
+        </form>
+    </div>
+     </div>
+ <button id="open-modal-btn">Купить</button>
+</body>
+</html>

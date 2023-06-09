@@ -12,7 +12,7 @@ body{
 	
     font-family: 'Rubik';
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;
 font-size: 16px;
 line-height: 19px;
 text-align: center;
@@ -26,7 +26,7 @@ margin-left: 5%;
     height: 212px;
     font-family: 'Rubik';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 16px;
     line-height: 19px;
     text-align: left;
@@ -332,3 +332,88 @@ font-family: 'Rubik';
     color:#AFB5C0;
     font-size: 16px;
 }
+.modal{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100vh;
+    z-index:99998;
+    background-color: rgba(0,0,0,.3);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y:auto ;
+    visibility: hidden;
+ }
+ .modal_box{
+     position: relative;
+     height: 725px;
+     max-width: 360px;
+     padding: 45px;
+     z-index: 1;
+     margin: 30px 15px;
+     background-color: white;
+     
+ }
+ .modal.open{
+     visibility: visible;
+     opacity: 1;
+ }
+ .tit{
+     color: green;
+ }
+ .star{
+     
+     color: red;
+ }
+ 
+ .button{
+     background-color: #147E45;
+     width: 300px;
+     height: 60px;
+     border-radius: 10px;
+     color: white;
+     border:none;
+     font-size: 17px;
+     box-shadow: 0px 0px 12px gray;
+ 
+ }
+ #checkbox{
+     display: none;
+ }
+ label:before{
+     content: "";
+     color: #000;
+     display: inline-block;
+     font:20px/30px Arial;
+     margin-right:15px;
+     position: relative;
+     text-align: center;
+     text-indent:0px ;
+     width:15px;
+     height: 15px;
+     background: #fff;
+     border: 1px solid #e3e3e3;
+     border-image: initial;
+     vertical-align: middle;
+ }
+ input:checked + label:before{
+     content: url(pop.png);
+ }
+ input:disabled + label::before{
+     background: #eee;
+     color:#aaa;
+ }
+ .modal_close-btn{
+     position:absolute;
+     top: 8px;
+     right: 8px; 
+     border:none;
+     background-color:transparent;
+     padding: 5px;
+ 
+ }
+ .modal_close-btn:hover {
+     fill:blue;
+ }

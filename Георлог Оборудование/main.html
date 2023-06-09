@@ -4,10 +4,10 @@
     <title>Scientific Equipment</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="main.css">
-   
+    <script defer src="Pop-up.js"></script>
+    <body>
 <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 </head>
-    <body>
         
             <div class="header">
             <a class="title" href="main.html"><b><span>Scientific</span>Equipment</b></a>
@@ -89,8 +89,31 @@
                     <p>Закажите обратный звонок, с вами свяжется<br>
                         менеджер и всё объяснит</p>
                 </div>
-                <button class="button5">Заказать звонок</button>
+                <button class="button5" id="open-modal-btn">Заказать звонок</button>
             </div>
+            <div class="modal" id="my-modal">
+                <div class="modal_box">
+                    <button class="modal_close-btn" id="close-my-modal-btn">X</button>
+                    <h2><span class="tit">Scientific</span>Equipment</h2>
+            
+                    <form action="">
+                        <h5>Ваше имя<span class="star">*</span></h5>
+                        <p><input type="text" name="text"
+                        placeholder="Как к вам обращаться?"></p>
+                        <h5>Номер телефона<span class="star">*</span></h5>
+                        <p><input type="tel" name="tel"
+                        placeholder="Введите ваш номер телефона"></p>
+                        <h5>Комментарий</h5>
+                        <p><input type="text" name="com"
+                        placeholder="Когда с вами удобнее связаться?">
+            
+                    </p>
+                          <input id="checkbox" type="checkbox" name="check" >
+                        <label for="checkbox">Даю своё согласие на обработку персональных данных</label>
+                        <input class="button" type="button" name="but" value="Оставить заявку">
+                    </form>
+                </div>
+                 </div>
             
         
   
